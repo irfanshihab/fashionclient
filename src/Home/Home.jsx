@@ -7,13 +7,11 @@ const Home = () => {
   return (
     <div>
       <h1 className="text-2xl font-semibold mb-4">Fashion Items</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2  gap-4">
         {items.map((item) => (
           <div
             key={item.id}
-            className={`max-w-[350px] mx-auto space-y-6 rounded-2xl bg-slate-100/70 px-6 py-4 shadow-md dark:bg-[#18181B] md:w-[350px] ${
-              item.newCollection ? "border border-green-500" : ""
-            }`}
+            className={`max-h-min mx-auto space-y-6 rounded-2xl bg-slate-100/70 px-6 py-4 shadow-md dark:bg-[#18181B] md:w-[350px] border border-green-500`}
           >
             {/* Card Image */}
             <img
@@ -31,9 +29,9 @@ const Home = () => {
               <h2 className="font-medium text-slate-800 sm:text-lg md:text-xl dark:text-white/90">
                 {item.name}
               </h2>
-              <p className="text-gray-500">{item.category}</p>
+              <p className="text-gray-500">Gender: {item.category}</p>
               {item.newCollection && (
-                <p className="text-green-500">New Collection</p>
+                <p className="text-green-500">New Collection: Latest</p>
               )}
             </div>
             {/* Price and action button */}
