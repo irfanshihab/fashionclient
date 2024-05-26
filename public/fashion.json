@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Stylish T-Shirt",
+    "price": "$25",
+    "category": "male",
+    "newCollection": true
+  },
+  {
+    "id": 2,
+    "name": "Elegant Dress",
+    "price": "$40",
+    "category": "female",
+    "newCollection": true
+  },
+  {
+    "id": 3,
+    "name": "Kids Jacket",
+    "price": "$30",
+    "category": "kids",
+    "newCollection": false
+  },
+  {
+    "id": 4,
+    "name": "Men's Jacket",
+    "price": "$50",
+    "category": "male",
+    "newCollection": false
+  },
+  {
+    "id": 5,
+    "name": "Women's Hat",
+    "price": "$20",
+    "category": "female",
+    "newCollection": true
+  }
+]
