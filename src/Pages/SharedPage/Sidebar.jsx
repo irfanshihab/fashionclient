@@ -7,7 +7,7 @@ const Sidebar = ({ onCategoryClick }) => {
       <ul>
         <li className="mb-2">
           <button
-            onClick={() => onCategoryClick("all")}
+            onClick={() => onCategoryClick(null)}
             className="text-blue-500 hover:underline"
           >
             All

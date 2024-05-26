@@ -30,7 +30,7 @@ const Main = () => {
         <Navbar />
       </div>
       <div className="flex">
-        <Sidebar onCategoryClick={handleCategoryClick} />
+        <Sidebar onCategoryClick={handleCategoryClick} item={items} />
         <div className="flex-1 ml-5">
           <Outlet context={{ items: filteredItems }} />
         </div>
