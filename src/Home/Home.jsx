@@ -1,5 +1,5 @@
 import React from "react";
-import { useOutletContext } from "react-router-dom";
+import { Link, useOutletContext } from "react-router-dom";
 
 const Home = () => {
   const { items } = useOutletContext();
@@ -41,9 +41,11 @@ const Home = () => {
               <h2 className="font-bold text-gray-700 md:text-xl dark:text-white/60">
                 {item.price}
               </h2>
-              <button className="rounded-lg bg-slate-800 px-6 py-2 text-[12px] font-semibold text-white hover:bg-slate-900 sm:text-sm md:text-base">
-                view
-              </button>
+              <Link to={`/products/${item.id}`}>
+                <button className="rounded-lg bg-slate-800 px-6 py-2 text-[12px] font-semibold text-white hover:bg-slate-900 sm:text-sm md:text-base">
+                  view
+                </button>
+              </Link>
               <button className="rounded-lg bg-slate-800 px-6 py-2 text-[12px] font-semibold text-white hover:bg-slate-900 sm:text-sm md:text-base">
                 cart
               </button>

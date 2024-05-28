@@ -6,6 +6,7 @@ import "./index.css";
 import Main from "./Layouts/Main.jsx";
 import Home from "./Home/Home.jsx";
 import ErrorPage from "./Pages/ErrorPage.jsx";
+import ProductInfo from "./Pages/ProductInfo.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/products/:id",
+        element: <ProductInfo />,
       },
     ],
   },
