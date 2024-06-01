@@ -7,6 +7,7 @@ import Main from "./Layouts/Main.jsx";
 import Home from "./Home/Home.jsx";
 import ErrorPage from "./Pages/ErrorPage.jsx";
 import ProductInfo from "./Pages/ProductInfo.jsx";
+import CartBooked from "./Pages/cart/CartBooked.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/products/:id",
         element: <ProductInfo />,
-        // loader:({params}) => fetch(`http://localhost:5000/clothes/${params.id}`)
+      },
+      {
+        path: "/carts",
+        element: <CartBooked />,
       },
     ],
   },

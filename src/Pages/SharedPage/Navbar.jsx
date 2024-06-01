@@ -6,6 +6,16 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [dropDownState, setDropDownState] = useState(false);
   const dropDownMenuRef = useRef();
+  const [cartCount, setCartCount] = useState(0);
+
+  useEffect(() => {
+    const fetchCartItems = async () => {
+      const items = await getCartItems();
+      setCartCount(items.length);
+    };
+
+    fetchCartItems();
+  }, []);
 
   useEffect(() => {
     const closeDropDown = (e) => {
@@ -38,11 +48,13 @@ const Navbar = () => {
           <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
         </li>
         <li className="group flex  cursor-pointer flex-col">
-          About
+          <Link to={"/carts"} className="cart-badge">
+            <span>Cart Items: {cartCount}</span>
+          </Link>
           <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
         </li>
         <li className="group flex  cursor-pointer flex-col">
-          Contact
+          <Link to={"https://www.google.co.uk/"}> Predict</Link>
           <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
         </li>
       </ul>

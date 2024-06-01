@@ -28,8 +28,41 @@ const ProductInfo = () => {
     fetchProduct();
   }, [id]);
 
+  // const addToCart = async () => {
+  //   console.log(product);
+  //   const { _id, name, price, gender, newCollection, img, description, size } =
+  //     product;
+  //   const cartBooked = {
+  //     clothesId: _id,
+  //     name,
+  //     price,
+  //     gender,
+  //     newCollection,
+  //     img,
+  //     description,
+  //     size,
+  //   };
+  //   console.log(cartBooked);
+  //   try {
+  //     const response = await fetch("http://localhost:5000/carts", {
+  //       method: "POST",
+  //       headers: {
+  //         "content-type": "application/json",
+  //       },
+  //       body: JSON.stringify(cartBooked),
+  //     });
+  //     if (!response.ok) {
+  //       throw new Error("Failed to add item to cart");
+  //     }
+  //     alert("Item added to cart successfully!");
+  //   } catch (error) {
+  //     console.error(error);
+  //     alert("Failed to add item to cart");
+  //   }
+  // };
   const addToCart = async () => {
-    console.log(product);
+    if (!product) return;
+
     const { _id, name, price, gender, newCollection, img, description, size } =
       product;
     const cartBooked = {
@@ -47,14 +80,18 @@ const ProductInfo = () => {
       const response = await fetch("http://localhost:5000/carts", {
         method: "POST",
         headers: {
-          "content-type": "application/json",
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(cartBooked),
       });
-      if (!response.ok) {
+      if (response.status === 400) {
+        const result = await response.json();
+        alert(result.message); // "Item already in cart"
+      } else if (!response.ok) {
         throw new Error("Failed to add item to cart");
+      } else {
+        alert("Item added to cart successfully!");
       }
-      alert("Item added to cart successfully!");
     } catch (error) {
       console.error(error);
       alert("Failed to add item to cart");
