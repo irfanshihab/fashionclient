@@ -6,9 +6,15 @@
     "gender": "female",
     "category": "saree",
     "newCollection": true,
-    "img": "img46.jpg",
+    "img": "https://i.ibb.co/6BxT6PZ/saree-1.jpg",
     "description": "Embrace timeless elegance with our women's traditional saree. Adorned with intricate embroidery and rich colors, this saree is perfect for weddings, festivals, or any special occasion.",
-    "size": ["One size fits all"]
+    "size": [
+      "S (34-36) ,",
+      "L (38-40),",
+      "XL (42-44),",
+      "XXl (46-48),",
+      "XXXL (50-52),"
+    ]
   },
   {
     "_id": "60d5ecf477eace39f64c7b63",
@@ -17,9 +23,15 @@
     "gender": "female",
     "category": "saree",
     "newCollection": true,
-    "img": "img63.jpg",
+    "img": "https://i.ibb.co/GkQQn64/saree-2.jpg",
     "description": "Exude grace and sophistication with our women's silk saree. Crafted from luxurious silk fabric and featuring intricate designs, this saree is perfect for weddings, receptions, or festive celebrations.",
-    "size": ["One size fits all"]
+    "size": [
+      "S (34-36) ,",
+      "L (38-40),",
+      "XL (42-44),",
+      "XXl (46-48),",
+      "XXXL (50-52),"
+    ]
   },
   {
     "_id": "60d5ecf477eace39f64c7b64",
@@ -28,9 +40,15 @@
     "gender": "female",
     "category": "saree",
     "newCollection": true,
-    "img": "img64.jpg",
+    "img": "https://i.ibb.co/dp86P6L/saree-3.jpg",
     "description": "Drape yourself in elegance with our women's georgette saree. Made from lightweight fabric with a subtle sheen, this saree is perfect for parties, receptions, or evening events.",
-    "size": ["One size fits all"]
+    "size": [
+      "S (34-36) ,",
+      "L (38-40),",
+      "XL (42-44),",
+      "XXl (46-48),",
+      "XXXL (50-52),"
+    ]
   },
   {
     "_id": "60d5ecf477eace39f64c7b65",
@@ -39,9 +57,15 @@
     "gender": "female",
     "category": "saree",
     "newCollection": true,
-    "img": "img65.jpg",
+    "img": "https://i.ibb.co/6BxT6PZ/saree-1.jpg",
     "description": "Make a regal statement with our women's Banarasi silk saree. Adorned with intricate zari work and rich patterns, this saree is perfect for weddings, grand celebrations, or traditional events.",
-    "size": ["One size fits all"]
+    "size": [
+      "S (34-36) ,",
+      "L (38-40),",
+      "XL (42-44),",
+      "XXl (46-48),",
+      "XXXL (50-52),"
+    ]
   },
   {
     "_id": "60d5ecf477eace39f64c7b66",
@@ -50,9 +74,15 @@
     "gender": "female",
     "category": "saree",
     "newCollection": true,
-    "img": "img66.jpg",
+    "img": "https://i.ibb.co/ZJ4D0Zg/saree-5.jpg",
     "description": "Float effortlessly in our women's chiffon saree. Crafted from lightweight and airy fabric, this saree drapes beautifully and is perfect for formal events, parties, or evening occasions.",
-    "size": ["One size fits all"]
+    "size": [
+      "S (34-36) ,",
+      "L (38-40),",
+      "XL (42-44),",
+      "XXl (46-48),",
+      "XXXL (50-52),"
+    ]
   },
   {
     "_id": "60d5ecf477eace39f64c7b67",
@@ -61,9 +91,15 @@
     "gender": "female",
     "category": "saree",
     "newCollection": true,
-    "img": "img67.jpg",
+    "img": "https://i.ibb.co/tcjBsPp/saree-6.jpg",
     "description": "Add a touch of femininity to your look with our women's floral printed saree. Featuring delicate floral prints and soft colors, this saree is perfect for daytime events or casual gatherings.",
-    "size": ["One size fits all"]
+    "size": [
+      "S (34-36) ,",
+      "L (38-40),",
+      "XL (42-44),",
+      "XXl (46-48),",
+      "XXXL (50-52),"
+    ]
   },
   {
     "_id": "60d5ecf477eace39f64c7b68",
@@ -72,9 +108,15 @@
     "gender": "female",
     "category": "saree",
     "newCollection": true,
-    "img": "img68.jpg",
+    "img": "https://i.ibb.co/YtxtzfF/saree-7.jpg",
     "description": "Stand out from the crowd with our women's designer saree. Featuring unique designs and exquisite craftsmanship, this saree is perfect for special occasions, parties, or weddings.",
-    "size": ["One size fits all"]
+    "size": [
+      "S (34-36) ,",
+      "L (38-40),",
+      "XL (42-44),",
+      "XXl (46-48),",
+      "XXXL (50-52),"
+    ]
   },
   {
     "_id": "60d5ecf477eace39f64c7b69",
@@ -83,9 +125,15 @@
     "gender": "female",
     "category": "saree",
     "newCollection": true,
-    "img": "img69.jpg",
+    "img": "https://i.ibb.co/svZ33XP/saree-8.jpg",
     "description": "Elevate your look with our women's embroidered saree. Adorned with intricate embroidery and embellishments, this saree is perfect for formal events, weddings, or festive celebrations.",
-    "size": ["One size fits all"]
+    "size": [
+      "S (34-36) ,",
+      "L (38-40),",
+      "XL (42-44),",
+      "XXl (46-48),",
+      "XXXL (50-52),"
+    ]
   },
   {
     "_id": "60d5ecf477eace39f64c7b70",
@@ -94,9 +142,15 @@
     "gender": "female",
     "category": "saree",
     "newCollection": true,
-    "img": "img70.jpg",
+    "img": "https://i.ibb.co/rvJQ024/saree-9.jpg",
     "description": "Make a statement at your next party with our women's party wear saree. Featuring bold colors and elegant designs, this saree is perfect for cocktail parties, receptions, or evening events.",
-    "size": ["One size fits all"]
+    "size": [
+      "S (34-36) ,",
+      "L (38-40),",
+      "XL (42-44),",
+      "XXl (46-48),",
+      "XXXL (50-52),"
+    ]
   },
   {
     "_id": "60d5ecf477eace39f64c7b71",
@@ -105,8 +159,14 @@
     "gender": "female",
     "category": "saree",
     "newCollection": true,
-    "img": "img71.jpg",
+    "img": "https://i.ibb.co/85Lmtvy/saree-10.jpg",
     "description": "Celebrate tradition with our women's traditional bandhani saree. Featuring vibrant tie-dye patterns and intricate detailing, this saree is perfect for weddings, festivals, or cultural events.",
-    "size": ["One size fits all"]
+    "size": [
+      "S (34-36) ,",
+      "L (38-40),",
+      "XL (42-44),",
+      "XXl (46-48),",
+      "XXXL (50-52),"
+    ]
   }
 ]

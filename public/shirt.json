@@ -6,9 +6,9 @@
     "gender": "male",
     "category": "shirt",
     "newCollection": true,
-    "img": "img41.jpg",
+    "img": "https://i.ibb.co/kMT8rCL/shirt-1.jpg",
     "description": "Add a pop of pattern to your wardrobe with our men's casual checkered shirt. Made from soft and breathable fabric, this shirt features a classic checkered design. Perfect for a relaxed yet stylish look.",
-    "size": ["M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b42",
@@ -17,9 +17,9 @@
     "gender": "male",
     "category": "shirt",
     "newCollection": true,
-    "img": "img42.jpg",
+    "img": "https://i.ibb.co/724Z3G3/shirt-2.jpg",
     "description": "Upgrade your office attire with our men's formal striped shirt. Crafted from high-quality fabric, this shirt features a sophisticated striped pattern. Perfect for meetings, presentations, or any formal occasion.",
-    "size": ["M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b43",
@@ -28,9 +28,9 @@
     "gender": "male",
     "category": "shirt",
     "newCollection": true,
-    "img": "img43.jpg",
+    "img": "https://i.ibb.co/xmzZ6jd/shirt-3.jpg",
     "description": "Stay cool and stylish in our men's linen shirt. Made from lightweight and breathable fabric, this shirt is perfect for warm weather. Versatile enough to dress up or down for any occasion.",
-    "size": ["M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b48",
@@ -39,9 +39,9 @@
     "gender": "male",
     "category": "shirt",
     "newCollection": true,
-    "img": "img48.jpg",
+    "img": "https://i.ibb.co/PF7jtf3/shirt-4.jpg",
     "description": "Achieve a polished look with our men's Oxford shirt. Crafted from premium cotton, this shirt features a button-down collar and a timeless design. Perfect for both casual and formal occasions.",
-    "size": ["M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b49",
@@ -50,9 +50,9 @@
     "gender": "male",
     "category": "shirt",
     "newCollection": true,
-    "img": "img49.jpg",
+    "img": "https://i.ibb.co/QnF6xXv/shirt-5.jpg",
     "description": "Stay warm and stylish with our men's flannel shirt. Made from soft and cozy fabric, this shirt features a classic plaid pattern. Perfect for layering or wearing alone on cooler days.",
-    "size": ["M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b50",
@@ -61,9 +61,9 @@
     "gender": "male",
     "category": "shirt",
     "newCollection": true,
-    "img": "img50.jpg",
+    "img": "https://i.ibb.co/CJ0csF2/shirt-6.jpg",
     "description": "Add a rugged edge to your look with our men's denim shirt. Made from durable denim fabric, this shirt features a classic design with a modern twist. Perfect for casual outings or weekend adventures.",
-    "size": ["M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b51",
@@ -72,9 +72,9 @@
     "gender": "male",
     "category": "shirt",
     "newCollection": true,
-    "img": "img51.jpg",
+    "img": "https://i.ibb.co/PQPCPsL/shirt-7.jpg",
     "description": "Stay cool and comfortable in our men's polo t-shirt. Made from soft and breathable fabric, this t-shirt features a classic polo collar and a relaxed fit. Perfect for casual days or outdoor activities.",
-    "size": ["M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b52",
@@ -83,9 +83,9 @@
     "gender": "male",
     "category": "shirt",
     "newCollection": true,
-    "img": "img52.jpg",
+    "img": "https://i.ibb.co/0tnnPwD/shirt-8.jpg",
     "description": "Get ready for summer with our men's Hawaiian shirt. Made from lightweight fabric with tropical prints, this shirt is perfect for beach parties or vacation vibes. Embrace laid-back style with a touch of aloha!",
-    "size": ["M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b53",
@@ -94,9 +94,9 @@
     "gender": "male",
     "category": "shirt",
     "newCollection": true,
-    "img": "img53.jpg",
+    "img": "https://i.ibb.co/2dVN09y/shirt-9.jpg",
     "description": "Stay cool and stylish in our men's linen button-up shirt. Made from breathable fabric, this shirt features a button-up design and a relaxed fit. Perfect for casual outings or beachside gatherings.",
-    "size": ["M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b54",
@@ -105,8 +105,8 @@
     "gender": "male",
     "category": "shirt",
     "newCollection": true,
-    "img": "img54.jpg",
+    "img": "https://i.ibb.co/5stYJZg/shirt-10.jpg",
     "description": "Add a versatile staple to your wardrobe with our men's chambray shirt. Made from lightweight and soft fabric, this shirt offers both comfort and style. Perfect for casual or semi-formal occasions.",
-    "size": ["M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   }
 ]

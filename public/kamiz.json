@@ -6,9 +6,9 @@
     "gender": "female",
     "category": "kamiz",
     "newCollection": true,
-    "img": "img72.jpg",
+    "img": "https://i.ibb.co/LQytRJR/sk-1.jpg",
     "description": "Elevate your ethnic wardrobe with our women's embroidered kamiz. Featuring intricate embroidery and a flattering silhouette, this kamiz is perfect for festive occasions, weddings, or cultural events.",
-    "size": ["S", "M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b73",
@@ -17,9 +17,9 @@
     "gender": "female",
     "category": "kamiz",
     "newCollection": true,
-    "img": "img73.jpg",
+    "img": "https://i.ibb.co/pvXhkFs/sk-2.jpg",
     "description": "Add a pop of print to your wardrobe with our women's printed kamiz. Featuring vibrant prints and a comfortable fit, this kamiz is perfect for casual outings, family gatherings, or daytime events.",
-    "size": ["S", "M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b74",
@@ -28,9 +28,9 @@
     "gender": "female",
     "category": "kamiz",
     "newCollection": true,
-    "img": "img74.jpg",
+    "img": "https://i.ibb.co/vdnMvpw/sk-3.jpg",
     "description": "Stay cool and comfortable in our women's cotton kamiz. Made from soft and breathable fabric, this kamiz is perfect for everyday wear, casual outings, or office attire.",
-    "size": ["S", "M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b75",
@@ -39,9 +39,9 @@
     "gender": "female",
     "category": "kamiz",
     "newCollection": true,
-    "img": "img75.jpg",
+    "img": "https://i.ibb.co/NZHZQmJ/sk-4.jpg",
     "description": "Upgrade your formal wardrobe with our women's formal kamiz. Made from high-quality fabric and featuring elegant designs, this kamiz is perfect for office wear, meetings, or formal events.",
-    "size": ["S", "M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b76",
@@ -50,9 +50,9 @@
     "gender": "female",
     "category": "kamiz",
     "newCollection": true,
-    "img": "img76.jpg",
+    "img": "https://i.ibb.co/6WLZn93/sk-5.jpg",
     "description": "Stay stylish and comfortable in our women's kurti with palazzo set. Featuring a trendy kurti and matching palazzo pants, this ensemble is perfect for casual outings, shopping, or lunch dates.",
-    "size": ["S", "M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b77",
@@ -61,9 +61,9 @@
     "gender": "female",
     "category": "kamiz",
     "newCollection": true,
-    "img": "img77.jpg",
+    "img": "https://i.ibb.co/2Pjssyf/sk-6.jpg",
     "description": "Channel timeless elegance with our women's Anarkali kamiz. Featuring a flowing silhouette and intricate embellishments, this kamiz is perfect for weddings, receptions, or formal events.",
-    "size": ["S", "M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b78",
@@ -72,9 +72,9 @@
     "gender": "female",
     "category": "kamiz",
     "newCollection": true,
-    "img": "img78.jpg",
+    "img": "https://i.ibb.co/mv1Fr4P/sk-7.jpg",
     "description": "Stay comfortable yet stylish in our women's casual kamiz. Made from lightweight fabric and featuring simple designs, this kamiz is perfect for everyday wear, running errands, or lounging at home.",
-    "size": ["S", "M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b79",
@@ -83,9 +83,9 @@
     "gender": "female",
     "category": "kamiz",
     "newCollection": true,
-    "img": "img79.jpg",
+    "img": "https://i.ibb.co/h9vYhrD/sk-8.jpg",
     "description": "Make a fashion statement with our women's designer kamiz. Featuring unique designs and contemporary styles, this kamiz is perfect for parties, events, or special occasions.",
-    "size": ["S", "M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b80",
@@ -94,9 +94,9 @@
     "gender": "female",
     "category": "kamiz",
     "newCollection": true,
-    "img": "img80.jpg",
+    "img": "https://i.ibb.co/bvGKGGv/sk-9.jpg",
     "description": "Add a touch of femininity to your look with our women's floral embroidered kamiz. Featuring delicate floral embroidery and a flattering silhouette, this kamiz is perfect for daytime events or semi-formal occasions.",
-    "size": ["S", "M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
     "_id": "60d5ecf477eace39f64c7b81",
@@ -105,8 +105,8 @@
     "gender": "female",
     "category": "kamiz",
     "newCollection": true,
-    "img": "img81.jpg",
+    "img": "https://i.ibb.co/bJwFqzn/sk-10.jpg",
     "description": "Celebrate tradition with our women's traditional kamiz. Featuring classic designs and rich colors, this kamiz is perfect for cultural events, festivals, or family gatherings.",
-    "size": ["S", "M", "L", "XL"]
+    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   }
 ]
