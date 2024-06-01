@@ -79,14 +79,14 @@ const ProductInfo = () => {
     const fetchProduct = async () => {
       try {
         setLoading(true);
-        const response = await fetch("/fashion.json");
+        const response = await fetch("/products.json");
 
         if (!response.ok) {
           throw new Error("Failed to fetch products");
         }
 
         const data = await response.json();
-        const product = data.find((p) => p._id === parseInt(_id));
+        const product = data.find((p) => p?._id === _id);
 
         if (!product) {
           throw new Error("Product not found");

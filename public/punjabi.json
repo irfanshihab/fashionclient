@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "60d5ecf477eace39f64c7b44",
+    "name": "Men's Traditional Panjabi",
+    "price": "$50",
+    "gender": "male",
+    "category": "punjabi",
+    "newCollection": true,
+    "img": "img44.jpg",
+    "description": "Celebrate culture and tradition with our men's traditional panjabi. Made from high-quality fabric and adorned with elegant embroidery, this panjabi is perfect for festive occasions or cultural events.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b45",
+    "name": "Men's Formal Panjabi",
+    "price": "$60",
+    "gender": "male",
+    "category": "punjabi",
+    "newCollection": true,
+    "img": "img45.jpg",
+    "description": "Make a statement with our men's formal panjabi. Crafted from luxurious fabric and featuring intricate detailing, this panjabi exudes elegance and sophistication. Ideal for weddings, receptions, or formal events.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b55",
+    "name": "Men's Kurta with Waistcoat",
+    "price": "$70",
+    "gender": "male",
+    "category": "punjabi",
+    "newCollection": true,
+    "img": "img55.jpg",
+    "description": "Elevate your traditional look with our men's kurta with waistcoat. Featuring intricate embroidery and a matching waistcoat, this ensemble is perfect for weddings, festivals, or cultural events.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b56",
+    "name": "Men's Designer Panjabi",
+    "price": "$80",
+    "gender": "male",
+    "category": "punjabi",
+    "newCollection": true,
+    "img": "img56.jpg",
+    "description": "Make a style statement with our men's designer panjabi. Crafted from premium fabric and featuring contemporary designs, this panjabi is perfect for those who want to stand out at special occasions.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b57",
+    "name": "Men's Embroidered Kurta",
+    "price": "$55",
+    "gender": "male",
+    "category": "punjabi",
+    "newCollection": true,
+    "img": "img57.jpg",
+    "description": "Add a touch of elegance to your wardrobe with our men's embroidered kurta. Made from luxurious fabric and featuring intricate embroidery, this kurta is perfect for weddings, receptions, or festive celebrations.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b58",
+    "name": "Men's Casual Panjabi",
+    "price": "$45",
+    "gender": "male",
+    "category": "punjabi",
+    "newCollection": true,
+    "img": "img58.jpg",
+    "description": "Stay comfortable yet stylish with our men's casual panjabi. Made from breathable fabric and featuring simple yet elegant designs, this panjabi is perfect for everyday wear or casual occasions.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b59",
+    "name": "Men's Cotton Panjabi",
+    "price": "$40",
+    "gender": "male",
+    "category": "punjabi",
+    "newCollection": true,
+    "img": "img59.jpg",
+    "description": "Stay cool and comfortable in our men's cotton panjabi. Made from lightweight and breathable fabric, this panjabi is perfect for warm weather or casual outings. Versatile enough to pair with jeans or trousers.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b60",
+    "name": "Men's Embellished Kurta",
+    "price": "$65",
+    "gender": "male",
+    "category": "punjabi",
+    "newCollection": true,
+    "img": "img60.jpg",
+    "description": "Make a style statement with our men's embellished kurta. Featuring intricate embellishments and a modern silhouette, this kurta is perfect for weddings, festivals, or special occasions.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b61",
+    "name": "Men's Festive Panjabi",
+    "price": "$75",
+    "gender": "male",
+    "category": "punjabi",
+    "newCollection": true,
+    "img": "img61.jpg",
+    "description": "Celebrate in style with our men's festive panjabi. Made from premium fabric and featuring festive motifs, this panjabi is perfect for Eid celebrations, family gatherings, or cultural events.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b62",
+    "name": "Men's Silk Panjabi",
+    "price": "$90",
+    "gender": "male",
+    "category": "punjabi",
+    "newCollection": true,
+    "img": "img62.jpg",
+    "description": "Exude sophistication with our men's silk panjabi. Crafted from luxurious silk fabric and featuring subtle designs, this panjabi is perfect for formal events, weddings, or festive occasions.",
+    "size": ["M", "L", "XL"]
+  }
+]

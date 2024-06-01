@@ -3,10 +3,16 @@ import { Link, useOutletContext } from "react-router-dom";
 
 const Home = () => {
   const { items } = useOutletContext();
+ 
+  if (!items) {
+    return <div className="text-center text-gray-500">No product found</div>;
+  }
 
   return (
     <div className="mt-20">
-      <h1 className="text-4xl font-semibold mb-10">Fashion Items</h1>
+      <h1 className="text-4xl font-semibold mb-10">
+        Fashion Items total: {items.length}
+      </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2  gap-4">
         {items.map((item) => (
           <div

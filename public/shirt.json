@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "60d5ecf477eace39f64c7b41",
+    "name": "Men's Casual Checkered Shirt",
+    "price": "$35",
+    "gender": "male",
+    "category": "shirt",
+    "newCollection": true,
+    "img": "img41.jpg",
+    "description": "Add a pop of pattern to your wardrobe with our men's casual checkered shirt. Made from soft and breathable fabric, this shirt features a classic checkered design. Perfect for a relaxed yet stylish look.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b42",
+    "name": "Men's Formal Striped Shirt",
+    "price": "$45",
+    "gender": "male",
+    "category": "shirt",
+    "newCollection": true,
+    "img": "img42.jpg",
+    "description": "Upgrade your office attire with our men's formal striped shirt. Crafted from high-quality fabric, this shirt features a sophisticated striped pattern. Perfect for meetings, presentations, or any formal occasion.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b43",
+    "name": "Men's Linen Shirt",
+    "price": "$40",
+    "gender": "male",
+    "category": "shirt",
+    "newCollection": true,
+    "img": "img43.jpg",
+    "description": "Stay cool and stylish in our men's linen shirt. Made from lightweight and breathable fabric, this shirt is perfect for warm weather. Versatile enough to dress up or down for any occasion.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b48",
+    "name": "Men's Oxford Shirt",
+    "price": "$50",
+    "gender": "male",
+    "category": "shirt",
+    "newCollection": true,
+    "img": "img48.jpg",
+    "description": "Achieve a polished look with our men's Oxford shirt. Crafted from premium cotton, this shirt features a button-down collar and a timeless design. Perfect for both casual and formal occasions.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b49",
+    "name": "Men's Flannel Shirt",
+    "price": "$55",
+    "gender": "male",
+    "category": "shirt",
+    "newCollection": true,
+    "img": "img49.jpg",
+    "description": "Stay warm and stylish with our men's flannel shirt. Made from soft and cozy fabric, this shirt features a classic plaid pattern. Perfect for layering or wearing alone on cooler days.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b50",
+    "name": "Men's Denim Shirt",
+    "price": "$60",
+    "gender": "male",
+    "category": "shirt",
+    "newCollection": true,
+    "img": "img50.jpg",
+    "description": "Add a rugged edge to your look with our men's denim shirt. Made from durable denim fabric, this shirt features a classic design with a modern twist. Perfect for casual outings or weekend adventures.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b51",
+    "name": "Men's Polo T-Shirt",
+    "price": "$25",
+    "gender": "male",
+    "category": "shirt",
+    "newCollection": true,
+    "img": "img51.jpg",
+    "description": "Stay cool and comfortable in our men's polo t-shirt. Made from soft and breathable fabric, this t-shirt features a classic polo collar and a relaxed fit. Perfect for casual days or outdoor activities.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b52",
+    "name": "Men's Hawaiian Shirt",
+    "price": "$30",
+    "gender": "male",
+    "category": "shirt",
+    "newCollection": true,
+    "img": "img52.jpg",
+    "description": "Get ready for summer with our men's Hawaiian shirt. Made from lightweight fabric with tropical prints, this shirt is perfect for beach parties or vacation vibes. Embrace laid-back style with a touch of aloha!",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b53",
+    "name": "Men's Linen Button-Up Shirt",
+    "price": "$35",
+    "gender": "male",
+    "category": "shirt",
+    "newCollection": true,
+    "img": "img53.jpg",
+    "description": "Stay cool and stylish in our men's linen button-up shirt. Made from breathable fabric, this shirt features a button-up design and a relaxed fit. Perfect for casual outings or beachside gatherings.",
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "_id": "60d5ecf477eace39f64c7b54",
+    "name": "Men's Chambray Shirt",
+    "price": "$40",
+    "gender": "male",
+    "category": "shirt",
+    "newCollection": true,
+    "img": "img54.jpg",
+    "description": "Add a versatile staple to your wardrobe with our men's chambray shirt. Made from lightweight and soft fabric, this shirt offers both comfort and style. Perfect for casual or semi-formal occasions.",
+    "size": ["M", "L", "XL"]
+  }
+]

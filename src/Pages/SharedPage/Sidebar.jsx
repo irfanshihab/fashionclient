@@ -29,14 +29,14 @@ const Sidebar = ({ onCategoryClick }) => {
             Female
           </button>
         </li>
-        <li className="mb-2">
+        {/* <li className="mb-2">
           <button
             onClick={() => onCategoryClick("kids")}
             className="text-blue-500 hover:underline"
           >
             Kids
           </button>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
