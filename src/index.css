@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* custom style */
+
+.custom-bg {
+    @apply bg-customBackground; /* Use the custom background color */
+  }
+  
+  /* .custom-button {
+    @apply bg-customButton text-white font-bold py-2 px-4 rounded hover:bg-customButtonHover;
+  } */
+  .custom-button {
+    @apply rounded-lg bg-slate-800 px-6 py-2 text-[12px] font-semibold text-white hover:bg-slate-900 sm:text-sm md:text-base;
+  }
+
+  .myColor{
+    @apply text-[#0000] hover:text-emerald-500; /* Apply Tailwind's built-in blue hover color */
+  }

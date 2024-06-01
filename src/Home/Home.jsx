@@ -10,7 +10,7 @@ const Home = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2  gap-4">
         {items.map((item) => (
           <div
-            key={item.id}
+            key={item?._id}
             className={`max-h-min mx-auto space-y-6 rounded-2xl bg-slate-100/70 px-6 py-4 shadow-md dark:bg-[#18181B] md:w-[350px] border border-green-500`}
           >
             {/* Card Image */}
@@ -41,14 +41,15 @@ const Home = () => {
               <h2 className="font-bold text-gray-700 md:text-xl dark:text-white/60">
                 {item.price}
               </h2>
-              <Link to={`/products/${item.id}`}>
+              <Link to={`/products/${item._id}`}>
                 <button className="rounded-lg bg-slate-800 px-6 py-2 text-[12px] font-semibold text-white hover:bg-slate-900 sm:text-sm md:text-base">
                   view
                 </button>
               </Link>
-              <button className="rounded-lg bg-slate-800 px-6 py-2 text-[12px] font-semibold text-white hover:bg-slate-900 sm:text-sm md:text-base">
-                cart
-              </button>
+              {/* <button className="rounded-lg bg-slate-800 px-6 py-2 text-[12px] font-semibold text-white hover:bg-slate-900 sm:text-sm md:text-base">
+                Cart
+              </button> */}
+              <button className="custom-button">cart</button>
             </div>
           </div>
         ))}

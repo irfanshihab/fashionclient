@@ -68,9 +68,9 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const ProductInfo = () => {
-  const { id } = useParams();
+  const { _id } = useParams();
 
-  console.log(typeof id);
+  console.log(typeof _id);
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -86,7 +86,7 @@ const ProductInfo = () => {
         }
 
         const data = await response.json();
-        const product = data.find((p) => p.id === parseInt(id));
+        const product = data.find((p) => p._id === parseInt(_id));
 
         if (!product) {
           throw new Error("Product not found");
@@ -101,7 +101,7 @@ const ProductInfo = () => {
     };
 
     fetchProduct();
-  }, [id]);
+  }, [_id]);
 
   if (loading) {
     return (
@@ -121,7 +121,7 @@ const ProductInfo = () => {
 
   return (
     <div className="max-w-2xl mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
+      <h1 className="text-3xl font-bold mb-4">{product?.name}</h1>
       <img
         src="https://i.ibb.co/WNhvgt7/eaters-collective-uh-Jfa-J6c9f-Y-unsplash.jpg"
         alt={product?.name}
