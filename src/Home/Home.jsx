@@ -3,7 +3,7 @@ import { Link, useOutletContext } from "react-router-dom";
 
 const Home = () => {
   const { items } = useOutletContext();
- 
+
   if (!items) {
     return <div className="text-center text-gray-500">No product found</div>;
   }
@@ -19,8 +19,8 @@ const Home = () => {
             key={item?._id}
             className={`max-h-min mx-auto space-y-6 rounded-2xl bg-slate-100/70 px-6 py-4 shadow-md dark:bg-[#18181B] md:w-[350px] border border-green-500`}
           >
-            {/* Card Image */}
-            <img
+            {/* Card Image  its needed*/}
+            {/* <img
               width={350}
               height={190}
               className="h-[190px] w-[350px] rounded-2xl bg-gray-400"
@@ -28,6 +28,13 @@ const Home = () => {
                 /\s+/g,
                 "-"
               )}`}
+              alt={item.name}
+            /> */}
+            <img
+              width={350}
+              height={190}
+              className="h-[190px] w-[350px] rounded-2xl bg-gray-400"
+              src={item.img}
               alt={item.name}
             />
             {/* Card Heading */}

@@ -1,28 +1,6 @@
 [
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b10"),
-    "name": "Men's Classic Blazer",
-    "price": "$120",
-    "gender": "male",
-    "category": "blazer",
-    "newCollection": true,
-    "img": "https://i.ibb.co/p43Nn07/blazer-1.jpg",
-    "description": "Upgrade your formal wardrobe with our men's classic blazer. Featuring a timeless design and high-quality fabric, this blazer is perfect for business meetings, formal events, or special occasions.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b11"),
-    "name": "Women's Stylish Blazer",
-    "price": "$130",
-    "gender": "female",
-    "category": "blazer",
-    "newCollection": true,
-    "img": "https://i.ibb.co/hYqKKcv/blazer-2.jpg",
-    "description": "Make a statement with our women's stylish blazer. Featuring a modern fit and elegant design, this blazer is perfect for office wear, meetings, or evening outings.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b12"),
+    "_id": "60d5ecf477eace39f64c7b12",
     "name": "Men's Slim Fit Blazer",
     "price": "$140",
     "gender": "male",
@@ -33,7 +11,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b13"),
+    "_id": "60d5ecf477eace39f64c7b13",
     "name": "Women's Casual Blazer",
     "price": "$110",
     "gender": "female",
@@ -44,7 +22,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b14"),
+    "_id": "60d5ecf477eace39f64c7b14",
     "name": "Men's Formal Blazer",
     "price": "$150",
     "gender": "male",
@@ -55,40 +33,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b15"),
-    "name": "Women's Elegant Evening Gown",
-    "price": "$180",
-    "gender": "female",
-    "category": "gown",
-    "newCollection": true,
-    "img": "https://i.ibb.co/Qpb85K9/gown-1.webp",
-    "description": "Turn heads at any event with our women's elegant evening gown. Featuring a floor-length design and exquisite detailing, this gown is perfect for formal occasions, weddings, or gala events.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b16"),
-    "name": "Women's Lace Gown",
-    "price": "$200",
-    "gender": "female",
-    "category": "gown",
-    "newCollection": true,
-    "img": "https://i.ibb.co/dk5gMR2/gown-2.jpg",
-    "description": "Exude sophistication with our women's lace gown. Crafted from delicate lace and featuring a flattering silhouette, this gown is perfect for evening events, weddings, or special celebrations.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b17"),
-    "name": "Women's Floral Embroidered Gown",
-    "price": "$220",
-    "gender": "female",
-    "category": "gown",
-    "newCollection": true,
-    "img": "https://i.ibb.co/D7WrYML/gown-3.jpg",
-    "description": "Make a statement with our women's floral embroidered gown. Featuring intricate floral embroidery and a flowing design, this gown is perfect for formal events, parties, or weddings.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b18"),
+    "_id": "60d5ecf477eace39f64c7b18",
     "name": "Women's Satin Gown",
     "price": "$190",
     "gender": "female",
@@ -99,7 +44,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b19"),
+    "_id": "60d5ecf477eace39f64c7b19",
     "name": "Women's Velvet Gown",
     "price": "$210",
     "gender": "female",
@@ -110,40 +55,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b20"),
-    "name": "Men's Classic tshirt",
-    "price": "$25",
-    "gender": "male",
-    "category": "tshirt",
-    "newCollection": true,
-    "img": "https://i.ibb.co/pvHnXnj/tshirt-1.jpg",
-    "description": "Stay stylish and comfortable with our men's classic tshirt. Made from soft, breathable fabric, this tshirt is perfect for everyday wear, casual outings, or lounging at home.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b21"),
-    "name": "Women's Graphic tshirt",
-    "price": "$30",
-    "gender": "female",
-    "category": "tshirt",
-    "newCollection": true,
-    "img": "https://i.ibb.co/Jq9f66P/tshirt-2.jpg",
-    "description": "Express yourself with our women's graphic tshirt. Featuring bold designs and comfortable fabric, this tshirt is perfect for casual outings, events, or a day out with friends.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b22"),
-    "name": "Men's Sport tshirt",
-    "price": "$35",
-    "gender": "male",
-    "category": "tshirt",
-    "newCollection": true,
-    "img": "https://i.ibb.co/YZ6gP9f/tshirt-3.jpg",
-    "description": "Stay active and comfortable with our men's sport tshirt. Made from moisture-wicking fabric, this tshirt is perfect for workouts, sports, or outdoor activities.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b23"),
+    "_id": "60d5ecf477eace39f64c7b23",
     "name": "Women's Casual tshirt",
     "price": "$20",
     "gender": "female",
@@ -154,7 +66,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b24"),
+    "_id": "60d5ecf477eace39f64c7b24",
     "name": "Men's V-Neck tshirt",
     "price": "$28",
     "gender": "male",
@@ -164,30 +76,9 @@
     "description": "Add a touch of style to your wardrobe with our men's V-neck tshirt. Featuring a comfortable fit and versatile design, this tshirt is perfect for casual outings, parties, or a night out.",
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
+
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b25"),
-    "name": "Women's Casual Top",
-    "price": "$25",
-    "gender": "female",
-    "category": "top",
-    "newCollection": true,
-    "img": "https://i.ibb.co/kJ8mzw9/top-1.jpg",
-    "description": "Stay comfortable and stylish with our women's casual top. Perfect for everyday wear, running errands, or meeting friends, this top is made from soft, breathable fabric.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b26"),
-    "name": "Women's Floral Top",
-    "price": "$30",
-    "gender": "female",
-    "category": "top",
-    "newCollection": true,
-    "img": "https://i.ibb.co/WgJzzbc/top-2.jpg",
-    "description": "Add a touch of elegance to your wardrobe with our women's floral top. Featuring a beautiful floral print, this top is perfect for casual outings, lunch dates, or weekend getaways.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b27"),
+    "_id": "60d5ecf477eace39f64c7b27",
     "name": "Women's Sleeveless Top",
     "price": "$20",
     "gender": "female",
@@ -198,7 +89,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b28"),
+    "_id": "60d5ecf477eace39f64c7b28",
     "name": "Women's V-Neck Top",
     "price": "$28",
     "gender": "female",
@@ -209,18 +100,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b29"),
-    "name": "Women's Striped Top",
-    "price": "$22",
-    "gender": "female",
-    "category": "top",
-    "newCollection": true,
-    "img": "https://i.ibb.co/txyVJ8h/top-5.jpg",
-    "description": "Add some stripes to your wardrobe with our women's striped top. Perfect for casual outings, shopping, or a day at the park, this top is both stylish and comfortable.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b30"),
+    "_id": "60d5ecf477eace39f64c7b30",
     "name": "Women's Embroidered Kamiz",
     "price": "$45",
     "gender": "female",
@@ -231,29 +111,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b31"),
-    "name": "Women's Printed Kamiz",
-    "price": "$35",
-    "gender": "female",
-    "category": "kamiz",
-    "newCollection": true,
-    "img": "https://i.ibb.co/pvXhkFs/sk-2.jpg",
-    "description": "Add a pop of print to your wardrobe with our women's printed kamiz. Featuring vibrant prints and a comfortable fit, this kamiz is perfect for casual outings, family gatherings, or daytime events.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b32"),
-    "name": "Women's Cotton Kamiz",
-    "price": "$40",
-    "gender": "female",
-    "category": "kamiz",
-    "newCollection": true,
-    "img": "https://i.ibb.co/vdnMvpw/sk-3.jpg",
-    "description": "Stay cool and comfortable in our women's cotton kamiz. Made from soft and breathable fabric, this kamiz is perfect for everyday wear, casual outings, or office attire.",
-    "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
-  },
-  {
-    "_id": ObjectId("60d5ecf477eace39f64c7b33"),
+    "_id": "60d5ecf477eace39f64c7b33",
     "name": "Women's Formal Kamiz",
     "price": "$50",
     "gender": "female",
@@ -264,7 +122,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b34"),
+    "_id": "60d5ecf477eace39f64c7b34",
     "name": "Women's Kurti with Palazzo",
     "price": "$55",
     "gender": "female",
@@ -275,7 +133,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b35"),
+    "_id": "60d5ecf477eace39f64c7b35",
     "name": "Women's Anarkali Kamiz",
     "price": "$60",
     "gender": "female",
@@ -286,7 +144,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b36"),
+    "_id": "60d5ecf477eace39f64c7b36",
     "name": "Women's Casual Kamiz",
     "price": "$30",
     "gender": "female",
@@ -297,7 +155,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b37"),
+    "_id": "60d5ecf477eace39f64c7b37",
     "name": "Women's Designer Kamiz",
     "price": "$70",
     "gender": "female",
@@ -308,7 +166,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b38"),
+    "_id": "60d5ecf477eace39f64c7b38",
     "name": "Women's Floral Embroidered Kamiz",
     "price": "$65",
     "gender": "female",
@@ -319,7 +177,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b39"),
+    "_id": "60d5ecf477eace39f64c7b39",
     "name": "Women's Traditional Kamiz",
     "price": "$75",
     "gender": "female",
@@ -331,7 +189,7 @@
   },
 
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b40"),
+    "_id": "60d5ecf477eace39f64c7b40",
     "name": "Men's Casual Checkered Shirt",
     "price": "$35",
     "gender": "male",
@@ -348,7 +206,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b41"),
+    "_id": "60d5ecf477eace39f64c7b41",
     "name": "Men's Formal Striped Shirt",
     "price": "$45",
     "gender": "male",
@@ -365,7 +223,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b42"),
+    "_id": "60d5ecf477eace39f64c7b42",
     "name": "Men's Linen Shirt",
     "price": "$40",
     "gender": "male",
@@ -382,7 +240,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b43"),
+    "_id": "60d5ecf477eace39f64c7b43",
     "name": "Men's Oxford Shirt",
     "price": "$50",
     "gender": "male",
@@ -399,7 +257,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b44"),
+    "_id": "60d5ecf477eace39f64c7b44",
     "name": "Men's Flannel Shirt",
     "price": "$55",
     "gender": "male",
@@ -416,7 +274,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b45"),
+    "_id": "60d5ecf477eace39f64c7b45",
     "name": "Men's Denim Shirt",
     "price": "$60",
     "gender": "male",
@@ -433,7 +291,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b46"),
+    "_id": "60d5ecf477eace39f64c7b46",
     "name": "Men's Polo T-Shirt",
     "price": "$25",
     "gender": "male",
@@ -450,7 +308,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b47"),
+    "_id": "60d5ecf477eace39f64c7b47",
     "name": "Men's Hawaiian Shirt",
     "price": "$30",
     "gender": "male",
@@ -467,7 +325,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b48"),
+    "_id": "60d5ecf477eace39f64c7b48",
     "name": "Men's Linen Button-Up Shirt",
     "price": "$35",
     "gender": "male",
@@ -484,7 +342,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b49"),
+    "_id": "60d5ecf477eace39f64c7b49",
     "name": "Men's Chambray Shirt",
     "price": "$40",
     "gender": "male",
@@ -501,7 +359,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b50"),
+    "_id": "60d5ecf477eace39f64c7b50",
     "name": "Women's Traditional Saree",
     "price": "$80",
     "gender": "female",
@@ -518,7 +376,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b51"),
+    "_id": "60d5ecf477eace39f64c7b51",
     "name": "Women's Silk Saree",
     "price": "$100",
     "gender": "female",
@@ -535,7 +393,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b51"),
+    "_id": "60d5ecf477eace39f64c7b52",
     "name": "Women's Georgette Saree",
     "price": "$90",
     "gender": "female",
@@ -552,7 +410,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b53"),
+    "_id": "60d5ecf477eace39f64c7b53",
     "name": "Women's Banarasi Silk Saree",
     "price": "$120",
     "gender": "female",
@@ -569,7 +427,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b54"),
+    "_id": "60d5ecf477eace39f64c7b54",
     "name": "Women's Chiffon Saree",
     "price": "$70",
     "gender": "female",
@@ -586,7 +444,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b55"),
+    "_id": "60d5ecf477eace39f64c7b55",
     "name": "Women's Floral Printed Saree",
     "price": "$60",
     "gender": "female",
@@ -603,7 +461,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b56"),
+    "_id": "60d5ecf477eace39f64c7b56",
     "name": "Women's Designer Saree",
     "price": "$150",
     "gender": "female",
@@ -620,7 +478,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b57"),
+    "_id": "60d5ecf477eace39f64c7b57",
     "name": "Women's Embroidered Saree",
     "price": "$110",
     "gender": "female",
@@ -637,7 +495,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b58"),
+    "_id": "60d5ecf477eace39f64c7b58",
     "name": "Women's Party Wear Saree",
     "price": "$80",
     "gender": "female",
@@ -654,7 +512,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b59"),
+    "_id": "60d5ecf477eace39f64c7b59",
     "name": "Women's Traditional Bandhani Saree",
     "price": "$85",
     "gender": "female",
@@ -671,7 +529,7 @@
     ]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b60"),
+    "_id": "60d5ecf477eace39f64c7b60",
     "name": "Men's Classic Punjabi",
     "price": "$65",
     "gender": "male",
@@ -682,7 +540,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b61"),
+    "_id": "60d5ecf477eace39f64c7b61",
     "name": "Men's Embroidered Punjabi",
     "price": "$75",
     "gender": "male",
@@ -693,7 +551,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b62"),
+    "_id": "60d5ecf477eace39f64c7b62",
     "name": "Men's Silk Punjabi",
     "price": "$85",
     "gender": "male",
@@ -704,7 +562,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b63"),
+    "_id": "60d5ecf477eace39f64c7b63",
     "name": "Men's Cotton Punjabi",
     "price": "$55",
     "gender": "male",
@@ -715,7 +573,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b64"),
+    "_id": "60d5ecf477eace39f64c7b64",
     "name": "Men's Festive Punjabi",
     "price": "$95",
     "gender": "male",
@@ -726,7 +584,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b65"),
+    "_id": "60d5ecf477eace39f64c7b65",
     "name": "Men's Casual Punjabi",
     "price": "$45",
     "gender": "male",
@@ -737,7 +595,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b66"),
+    "_id": "60d5ecf477eace39f64c7b66",
     "name": "Men's Designer Punjabi",
     "price": "$110",
     "gender": "male",
@@ -748,7 +606,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b67"),
+    "_id": "60d5ecf477eace39f64c7b67",
     "name": "Men's Traditional Punjabi",
     "price": "$70",
     "gender": "male",
@@ -759,7 +617,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b68"),
+    "_id": "60d5ecf477eace39f64c7b68",
     "name": "Men's Modern Punjabi",
     "price": "$80",
     "gender": "male",
@@ -770,7 +628,7 @@
     "size": ["S (34-36)", "M (38-40)", "L (42-44)", "XL (46-48)", "XXL (50-52)"]
   },
   {
-    "_id": ObjectId("60d5ecf477eace39f64c7b69"),
+    "_id": "60d5ecf477eace39f64c7b69",
     "name": "Men's Velvet Punjabi",
     "price": "$120",
     "gender": "male",

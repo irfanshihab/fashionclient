@@ -10,7 +10,7 @@ const Main = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("products.json")
+    fetch("http://localhost:5000/clothes")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Failed to fetch");
