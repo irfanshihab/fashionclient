@@ -28,6 +28,39 @@ const ProductInfo = () => {
     fetchProduct();
   }, [id]);
 
+  const addToCart = async () => {
+    console.log(product);
+    const { _id, name, price, gender, newCollection, img, description, size } =
+      product;
+    const cartBooked = {
+      clothesId: _id,
+      name,
+      price,
+      gender,
+      newCollection,
+      img,
+      description,
+      size,
+    };
+    console.log(cartBooked);
+    try {
+      const response = await fetch("http://localhost:5000/carts", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(cartBooked),
+      });
+      if (!response.ok) {
+        throw new Error("Failed to add item to cart");
+      }
+      alert("Item added to cart successfully!");
+    } catch (error) {
+      console.error(error);
+      alert("Failed to add item to cart");
+    }
+  };
+
   if (loading) {
     return (
       <div className="flex justify-center items-center h-screen">
@@ -56,7 +89,10 @@ const ProductInfo = () => {
       <p className="text-xl font-semibold text-green-600 mb-2">
         ${product.price}
       </p>
-      <button className="bg-blue-500 text-white px-4 py-2 rounded">
+      <button
+        onClick={addToCart}
+        className="bg-blue-500 text-white px-4 py-2 rounded"
+      >
         Add to Cart
       </button>
     </div>
