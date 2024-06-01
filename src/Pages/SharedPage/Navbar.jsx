@@ -2,34 +2,36 @@ import { useState } from "react";
 import { useRef } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-
+import useCart from "../../utilse/useCart";
+import { FaShoppingCart } from "react-icons/fa";
 const Navbar = () => {
   const [dropDownState, setDropDownState] = useState(false);
   const dropDownMenuRef = useRef();
-  const [cartCount, setCartCount] = useState(0);
+  // const [cartCount, setCartCount] = useState(0);
 
-  useEffect(() => {
-    const fetchCartItems = async () => {
-      const items = await getCartItems();
-      setCartCount(items.length);
-    };
+  // useEffect(() => {
+  //   const fetchCartItems = async () => {
+  //     const items = await getCartItems();
+  //     setCartCount(items.length);
+  //   };
 
-    fetchCartItems();
-  }, []);
+  //   fetchCartItems();
+  // }, []);
 
-  useEffect(() => {
-    const closeDropDown = (e) => {
-      if (!dropDownMenuRef?.current?.contains(e?.target)) {
-        setDropDownState(false);
-      }
-    };
+  // useEffect(() => {
+  //   const closeDropDown = (e) => {
+  //     if (!dropDownMenuRef?.current?.contains(e?.target)) {
+  //       setDropDownState(false);
+  //     }
+  //   };
 
-    document.addEventListener("mousedown", closeDropDown);
+  //   document.addEventListener("mousedown", closeDropDown);
 
-    return () => {
-      document.removeEventListener("mousedown", closeDropDown);
-    };
-  }, []);
+  //   return () => {
+  //     document.removeEventListener("mousedown", closeDropDown);
+  //   };
+  // }, []);
+  const { cartItems, loading, error } = useCart();
 
   return (
     <nav className="flex items-center justify-between bg-[#393E46] px-4 py-2 text-white">
@@ -48,8 +50,11 @@ const Navbar = () => {
           <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
         </li>
         <li className="group flex  cursor-pointer flex-col">
-          <Link to={"/carts"} className="cart-badge">
-            <span>Cart Items: {cartCount}</span>
+          <Link to="/carts" className="relative inline-block">
+            <FaShoppingCart className="w-8 h-8 text-white" />
+            <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white transform translate-x-1/2 -translate-y-1/2 bg-red-600 rounded-full">
+              {cartItems.length}
+            </span>
           </Link>
           <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
         </li>
