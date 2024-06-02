@@ -10,17 +10,17 @@ const Navbar = () => {
   const { cartItems, loading, error } = useCart();
 
   return (
-    <nav className="flex items-center justify-between bg-[#393E46] px-4 py-2 text-white">
+    <nav className="flex items-center justify-between bg-gray-800  px-4 py-2 text-white">
       <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
         <Link to={"/"}>
           <h2>ClothesLook</h2>
         </Link>
       </div>
       <ul className="hidden items-center justify-between gap-10 md:flex">
-        <li className="group flex  cursor-pointer flex-col">
+        <Link to={"/"} className="group flex  cursor-pointer flex-col">
           Home
           <span className="mt-[2px] h-[3px] w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
-        </li>
+        </Link>
         <li className="group flex  cursor-pointer flex-col">
           Services
           <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
         </li>
         <li className="group flex  cursor-pointer flex-col">
-          <Link to={"https://www.google.co.uk/"}> Predict</Link>
+          <Link to={"https://www.google.co.uk/"}> Term & conditons</Link>
           <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
         </li>
       </ul>
@@ -63,17 +63,26 @@ const Navbar = () => {
         </svg>
         {dropDownState && (
           <ul className=" z-10  gap-2  bg-[#393E46]  absolute right-0 top-11 flex w-[200px] flex-col  rounded-lg   text-base ">
-            <li className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-sky-600 ">
+            <Link
+              to={"/"}
+              className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-sky-600 "
+            >
               Home
-            </li>
+            </Link>
             <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
               Services
             </li>
             <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
-              About
+              Term & conditons
             </li>
             <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
-              Contact
+              <Link to="/carts" className="relative inline-block">
+                <FaShoppingCart className="w-8 h-8 text-white" />
+                <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white transform translate-x-1/2 -translate-y-1/2 bg-red-600 rounded-full">
+                  {cartItems.length}
+                </span>
+              </Link>
+              <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
             </li>
           </ul>
         )}

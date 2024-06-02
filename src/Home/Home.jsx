@@ -17,6 +17,7 @@ const Home = () => {
       name,
       price,
       gender,
+      category,
       newCollection,
       img,
       description,
@@ -53,6 +54,7 @@ const Home = () => {
                 {item.newCollection && (
                   <p className="text-green-500">New Collection: Latest</p>
                 )}
+                <p className="text-gray-800">Category: {item.category}</p>
               </div>
             </div>
             <div className="mt-5 flex items-center justify-between">

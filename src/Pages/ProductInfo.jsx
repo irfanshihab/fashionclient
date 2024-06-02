@@ -70,6 +70,7 @@ const ProductInfo = () => {
       name,
       price,
       gender,
+      category,
       newCollection,
       img,
       description,
