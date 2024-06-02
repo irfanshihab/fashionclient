@@ -7,30 +7,6 @@ import { FaShoppingCart } from "react-icons/fa";
 const Navbar = () => {
   const [dropDownState, setDropDownState] = useState(false);
   const dropDownMenuRef = useRef();
-  // const [cartCount, setCartCount] = useState(0);
-
-  // useEffect(() => {
-  //   const fetchCartItems = async () => {
-  //     const items = await getCartItems();
-  //     setCartCount(items.length);
-  //   };
-
-  //   fetchCartItems();
-  // }, []);
-
-  // useEffect(() => {
-  //   const closeDropDown = (e) => {
-  //     if (!dropDownMenuRef?.current?.contains(e?.target)) {
-  //       setDropDownState(false);
-  //     }
-  //   };
-
-  //   document.addEventListener("mousedown", closeDropDown);
-
-  //   return () => {
-  //     document.removeEventListener("mousedown", closeDropDown);
-  //   };
-  // }, []);
   const { cartItems, loading, error } = useCart();
 
   return (
