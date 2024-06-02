@@ -167,6 +167,10 @@ const Main = () => {
           )}
         </div>
       </div>
+
+      <footer className="bg-sky-100 py-5 text-center text-black mb-10 mt-20">
+        <p>&copy; 2024 FarihasFashions. All Rights Reserved.</p>
+      </footer>
     </div>
   );
 };

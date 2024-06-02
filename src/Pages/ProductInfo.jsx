@@ -63,8 +63,17 @@ const ProductInfo = () => {
   const addToCart = async () => {
     if (!product) return;
 
-    const { _id, name, price, gender, newCollection, img, description, size } =
-      product;
+    const {
+      _id,
+      name,
+      category,
+      price,
+      gender,
+      newCollection,
+      img,
+      description,
+      size,
+    } = product;
     const cartBooked = {
       clothesId: _id,
       name,
@@ -121,12 +130,32 @@ const ProductInfo = () => {
       <img
         src={product?.img}
         alt={product?.name}
-        className="w-full h-64 object-cover mb-4"
+        className="w-full h-full object-cover mb-4"
       />
       <p className="text-lg text-gray-700 mb-2">{product?.description}</p>
       <p className="text-xl font-semibold text-green-600 mb-2">
-        ${product.price}
+        Price : {product.price}
       </p>
+
+      <div className="mt-5">
+        {product.size.map((p, index) => (
+          <p key={index} className="text-lg text-gray-700 mb-2">
+            {p}
+          </p>
+        ))}
+
+        <p className="text-lg text-gray-700 mb-2">gender:{product?.gender}</p>
+        <p className="text-lg text-gray-700 mb-2">
+          category: {product?.category}
+        </p>
+        <p className="text-lg text-gray-700 mb-2">
+          collection:{" "}
+          {product?.newCollection === true
+            ? "Latest collection"
+            : "Old collection"}
+        </p>
+      </div>
+
       <button
         onClick={addToCart}
         className="bg-blue-500 text-white px-4 py-2 rounded"

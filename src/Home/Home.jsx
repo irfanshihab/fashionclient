@@ -10,8 +10,17 @@ const Home = () => {
   }
 
   const handleAddCart = (item) => {
-    const { _id, name, price, gender, newCollection, img, description, size } =
-      item;
+    const {
+      _id,
+      name,
+      category,
+      price,
+      gender,
+      newCollection,
+      img,
+      description,
+      size,
+    } = item;
     const cartBooked = {
       clothesId: _id,
       name,

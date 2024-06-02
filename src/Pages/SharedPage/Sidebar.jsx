@@ -83,7 +83,7 @@ const Sidebar = ({ onGenderClick, onClothingItemClick, items }) => {
             onClick={() => onGenderClick(null)}
             className="flex items-center text-xl text-blue-400 hover:underline"
           >
-            <span>All</span>
+            <IoMdMale className="mr-2" /> <span>All</span>
           </button>
         </li>
         <li className="mb-5">
