@@ -107,14 +107,14 @@ const CartBooked = () => {
             </div>
           </div>
           <div className="mt-5 flex items-center justify-between">
-            {/* <Link to={`/products/${item._id}`}>
+            <Link to={`/carts/${item._id}`}>
               <button
                 className="rounded-lg bg-[#af36ab] text-black  
                 px-10 py-2 text-lg font-semibold hover:text-white  hover:bg-slate-900 sm:text-sm md:text-base"
               >
                 View
               </button>
-            </Link> */}
+            </Link>
             <button
               onClick={() => handleDelete(item._id)}
               className="custom-button"

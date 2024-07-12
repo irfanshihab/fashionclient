@@ -52,11 +52,11 @@ const Home = () => {
             <img
               width={350}
               height={190}
-              className="h-[300px] w-[350px] rounded-2xl bg-gray-400"
+              className="h-[270px] w-[350px] rounded-2xl bg-gray-400"
               src={item.img}
               alt={item.name}
             />
-            <div className="space-y-2">
+            <div className="space-y-2 ">
               <h2 className="font-medium text-black sm:text-lg md:text-xl dark:text-white/90">
                 Name : {item.name}
               </h2>
@@ -75,7 +75,7 @@ const Home = () => {
                 <p className="">Price : {item.price} </p>
               </div> */}
             </div>
-            <div className="mt-5 flex items-center justify-between">
+            <div className="mt-5 pt-3 flex items-center justify-between">
               <h2 className="font-bold text-black md:text-xl dark:text-white/60">
                 {item.price}
               </h2>
