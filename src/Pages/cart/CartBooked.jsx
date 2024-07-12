@@ -1,6 +1,6 @@
 import React from "react";
 import useCart from "../../utilse/useCart";
-
+import { Link } from "react-router-dom";
 const CartBooked = () => {
   const { cartItems, loading, error, removeCartItem } = useCart();
 
@@ -39,25 +39,82 @@ const CartBooked = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto p-4 mt-10 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+    <div
+      className="mt-10
+     grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-2  lg:grid-cols-2"
+    >
       {cartItems.map((item) => (
+        // <div
+        //   key={item._id}
+        //   className="bgCartColor border max-h-min mx-auto rounded-lg overflow-hidden shadow-md"
+        // >
+        //   <img
+        //     src={item.img}
+        //     alt={item.name}
+        //     className="w-full h-48 object-cover"
+        //   />
+        //   <div className="space-y-2">
+        //     <h2 className="font-medium text-black sm:text-lg md:text-xl dark:text-white/90">
+        //       Name : {item.name}
+        //     </h2>
+        //     <div className="flex  justify-between items-center gap-2 pt-5">
+        //       <p className="font-medium text-base text-[#000]">
+        //         Gender: {item.gender}
+        //       </p>
+        //       <p className="font-medium text-base text-[#000]">
+        //         Category: {item.category}
+        //       </p>
+        //     </div>
+        //   </div>
+        //   <div>
+        //     <button
+        //       onClick={() => handleDelete(item._id)}
+        //       className="custom-button"
+        //     >
+        //       Delete
+        //     </button>
+        //   </div>
+        // </div>
+
         <div
           key={item._id}
-          className="border rounded-lg overflow-hidden shadow-md"
+          className={`max-h-min  mx-auto space-y-6
+               rounded-2xl bgCartColor px-6 py-6
+                shadow-xl dark:bg-[#18181B] md:w-[400px]   `}
         >
           <img
+            width={350}
+            height={190}
+            className="h-[300px] w-[350px] rounded-2xl bg-gray-400"
             src={item.img}
             alt={item.name}
-            className="w-full h-48 object-cover"
           />
-          <div className="p-4">
-            <h2 className="text-xl font-bold mb-2">{item.name}</h2>
-            <p className="text-gray-700 mb-2">{item.description}</p>
-            <p className="text-lg font-semibold text-green-600 mb-2">
-              ${item.price}
-            </p>
+          <div className="space-y-2">
+            <h2
+              className="text-2xl font-medium text-black sm:text-lg md:text-xl
+             dark:text-white/90"
+            >
+              Name : {item.name}
+            </h2>
+            <div className="flex  justify-between items-center gap-2 pt-5">
+              <p className="font-medium text-lg text-[#000]">
+                Gender: {item.gender}
+              </p>
+
+              <p className="font-medium text-lg text-[#000]">
+                Category: {item.category}
+              </p>
+            </div>
           </div>
-          <div>
+          <div className="mt-5 flex items-center justify-between">
+            <Link to={`/products/${item._id}`}>
+              <button
+                className="rounded-lg bg-[#af36ab] text-black  
+                px-10 py-2 text-lg font-semibold hover:text-white  hover:bg-slate-900 sm:text-sm md:text-base"
+              >
+                View
+              </button>
+            </Link>
             <button
               onClick={() => handleDelete(item._id)}
               className="custom-button"

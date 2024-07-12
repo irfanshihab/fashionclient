@@ -61,7 +61,7 @@ const Sidebar = ({ onGenderClick, onClothingItemClick, items }) => {
     const femaleTypes = [];
 
     items.forEach((item) => {
-      if (item.gender === "male" && !maleTypes.includes(item.category)) {
+      if (item.gender === "male" && !maleTypes.includes(item?.category)) {
         maleTypes.push(item.category);
       } else if (
         item.gender === "female" &&
@@ -76,30 +76,30 @@ const Sidebar = ({ onGenderClick, onClothingItemClick, items }) => {
   }, [items]);
   // bg-[#383a3d]
   return (
-    <div className="w-48 p-4 mt-0 bg-gray-800  min-h-max text-white">
-      <ul>
+    <div className="w-48 p-4 mt-0 bg-gray-900  min-h-max text-white">
+      <ul className="mt-10">
         <li className="mb-5">
           <button
             onClick={() => onGenderClick(null)}
-            className="flex items-center text-xl text-blue-400 hover:underline"
+            className="flex items-center text-base font-normal  hover:underline"
           >
-            <IoMdMale className="mr-2" /> <span>All</span>
+            <IoMdMale className="mr-2" /> <span className="">All</span>
           </button>
         </li>
         <li className="mb-5">
           <button
             onClick={() => onGenderClick("male")}
-            className="flex items-center text-xl text-blue-400 hover:underline mb-4"
+            className="flex items-center text-base font-normal hover:underline mb-4"
           >
             <IoMdMale className="mr-2" /> <span>Male</span>
           </button>
           <ul className="pl-12">
             {maleClothingTypes.map((type, index) => (
               <li
-                className="text-blue-400 hover:underline mb-2 ms-5"
+                className="text-base font-normal hover:underline mb-2 ms-5"
                 key={index}
                 onClick={() => onClothingItemClick(type)}
-                type="circle"
+                type="disc"
               >
                 {/* <FaTshirt className="mr-2" /> */}
                 {type}
@@ -110,16 +110,16 @@ const Sidebar = ({ onGenderClick, onClothingItemClick, items }) => {
         <li className="mb-5">
           <button
             onClick={() => onGenderClick("female")}
-            className="flex items-center text-xl text-blue-400 hover:underline mb-4"
+            className="flex items-center text-base font-normal hover:underline mb-4"
           >
             <IoMdFemale className="mr-2" /> <span>Female</span>
           </button>
           <ul className="pl-12">
             {femaleClothingTypes.map((type, index) => (
               <li
-                className="text-blue-400 hover:underline mb-2 ms-5"
+                className="text-base font-normal hover:underline mb-2 ms-5"
                 key={index}
-                type="circle"
+                type="disc"
                 onClick={() => onClothingItemClick(type)}
               >
                 {type}

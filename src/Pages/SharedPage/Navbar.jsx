@@ -10,7 +10,7 @@ const Navbar = () => {
   const { cartItems, loading, error } = useCart();
 
   return (
-    <nav className="flex items-center justify-between bg-gray-800  px-4 py-2 text-white">
+    <nav className="flex items-center justify-between bg-gray-900  px-4 py-2 text-white">
       <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
         <Link to={"/"}>
           <h2>ClothesLook</h2>
