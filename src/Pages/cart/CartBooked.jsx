@@ -81,16 +81,15 @@ const CartBooked = () => {
           <div
             key={item._id}
             className={`max-h-min  mx-auto space-y-6
-               rounded-2xl bgCartColor px-6 py-4
+               rounded-2xl bgCartColor px-4 py-4
                 shadow-xl dark:bg-[#18181B] w-full  `}
           >
             <img
-              // width={350}
-              height={190}
-              className="h-[270px] w-full rounded-2xl bg-gray-400"
+              className="h-[270px] w-full rounded-2xl bg-gray-400 transition-transform duration-300 transform hover:scale-110"
               src={item.img}
               alt={item.name}
             />
+
             <div className="space-y-2">
               <h2
                 className="text-2xl font-medium text-black sm:text-lg md:text-xl

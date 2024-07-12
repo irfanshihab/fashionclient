@@ -48,13 +48,13 @@ const Home = () => {
               <div
                 key={item._id}
                 className={`max-h-min  mx-auto space-y-6
-               rounded-2xl bgCartColor px-6 py-4
-                shadow-xl dark:bg-[#18181B] w-full   `}
+               rounded-2xl bgCartColor px-4 py-4
+                shadow-xl dark:bg-[#18181B] w-full  `}
               >
                 <img
                   // width={350}
                   height={190}
-                  className="h-[270px] w-full rounded-2xl bg-gray-400"
+                  className="h-[270px] w-full rounded-2xl bg-gray-400 transition-transform duration-300 transform hover:scale-105 "
                   src={item.img}
                   alt={item.name}
                 />
@@ -62,16 +62,21 @@ const Home = () => {
                   <h2 className="font-medium text-black sm:text-lg md:text-xl dark:text-white/90">
                     {item.name}
                   </h2>
-                  <div className="flex  justify-between items-center gap-2 pt-5">
+                  <div className=" pt-5">
                     <p className="font-medium text-lg text-[#000]">
                       Price: {item.price}
                     </p>
                     {/* {item.newCollection && (
                   <p className="text-green-500">New Collection: Latest</p>
                 )} */}
-                    {/* <p className="font-medium text-base text-[#000]">
-                  Category: {item.category}
-                </p> */}
+                    {/* <p className="pt-3">
+                      <Link
+                        to={`/products/${item._id}`}
+                        className="font-medium text-base text-[#000] hover:underline hover:text-blue-400"
+                      >
+                        Info
+                      </Link>
+                    </p> */}
                   </div>
                   {/* <div className="text-base font-medium text-black pt-5">
                 <p className="">Price : {item.price} </p>
