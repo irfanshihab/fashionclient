@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { HiOutlineShoppingCart } from "react-icons/hi";
 import { useParams } from "react-router-dom";
 
 const ProductInfo = () => {
@@ -125,43 +126,51 @@ const ProductInfo = () => {
   }
 
   return (
-    <div className="max-w-2xl mx-auto p-4 ">
-      <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
+    <div className="max-w-2xl mx-auto p-4 mt-10">
       <img
         src={product?.img}
         alt={product?.name}
-        className="w-full h-full object-cover mb-4"
+        className="w-[80%]   h-auto object-fill mb-10"
       />
-      <p className="text-lg text-gray-700 mb-2">{product?.description}</p>
-      <p className="text-xl font-semibold text-green-600 mb-2">
-        Price : {product.price}
-      </p>
+      <div>
+        <h1 className="text-2xl font-bold mb-4">{product.name}</h1>
+      </div>
+      <p className="text-xl text-black mb-2"> {product?.description}</p>
 
-      <div className="mt-5">
+      <div className="mt-5 ">
+        <div className="my-5 grid grid-cols-2">
+          <p className="text-lg font-semibold text-black mb-2">
+            Gender:{product?.gender}
+          </p>
+          <p className="text-lg font-semibold text-black mb-2">
+            Category: {product?.category}
+          </p>
+
+          <p className="text-lg font-semibold text-black mb-2">
+            Price : {product.price}
+          </p>
+          <p className="text-lg font-semibold text-black mb-2">
+            Collection:{" "}
+            {product?.newCollection === true
+              ? "Latest collection"
+              : "Old collection"}
+          </p>
+        </div>
         {product.size.map((p, index) => (
-          <p key={index} className="text-lg text-gray-700 mb-2">
+          <p key={index} className="text-lg font-semibold text-black mb-2">
             {p}
           </p>
         ))}
-
-        <p className="text-lg text-gray-700 mb-2">gender:{product?.gender}</p>
-        <p className="text-lg text-gray-700 mb-2">
-          category: {product?.category}
-        </p>
-        <p className="text-lg text-gray-700 mb-2">
-          collection:{" "}
-          {product?.newCollection === true
-            ? "Latest collection"
-            : "Old collection"}
-        </p>
       </div>
 
-      <button
-        onClick={addToCart}
-        className="bg-blue-500 text-white px-4 py-2 rounded"
-      >
-        Add to Cart
-      </button>
+      <div className="mt-5 ">
+        <button onClick={addToCart} className="custom-button w-full">
+          <p className="flex items-center justify-center gap-2">
+            <HiOutlineShoppingCart />
+            <span>Cart</span>
+          </p>
+        </button>
+      </div>
     </div>
   );
 };

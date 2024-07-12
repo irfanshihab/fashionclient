@@ -82,7 +82,7 @@ const Home = () => {
               <Link to={`/products/${item._id}`}>
                 <button
                   className="rounded-lg bg-[#af36ab] text-black  
-                px-6 py-2 text-lg font-semibold hover:text-white  hover:bg-slate-900 sm:text-sm md:text-base"
+                px-7 py-2 text-lg font-semibold hover:text-white  hover:bg-slate-900 sm:text-sm md:text-base"
                 >
                   View
                 </button>
@@ -90,7 +90,7 @@ const Home = () => {
               <button
                 onClick={() => handleAddCart(item)}
                 className="rounded-lg bg-[#af36ab]
-                 text-black  px-6 py-2 text-lg font-semibold hover:text-white  hover:bg-slate-900 sm:text-sm md:text-base"
+                 text-black  px-7 py-2 text-lg font-semibold hover:text-white  hover:bg-slate-900 sm:text-sm md:text-base"
               >
                 <p className="flex items-center justify-center gap-2">
                   <HiOutlineShoppingCart />
