@@ -49,7 +49,7 @@ const Home = () => {
                 key={item._id}
                 className={`max-h-min  mx-auto space-y-6
                rounded-2xl bgCartColor px-4 py-4
-                shadow-xl dark:bg-[#18181B] w-full  `}
+                shadow-xl dark:bg-[#18181B] min-w-full  `}
               >
                 <img
                   // width={350}

@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import useCart from "../../utilse/useCart";
 import { FaShoppingCart } from "react-icons/fa";
+import logo from "../../assets/logo.jpeg";
 const Navbar = () => {
   const [dropDownState, setDropDownState] = useState(false);
   const dropDownMenuRef = useRef();
@@ -19,6 +20,11 @@ const Navbar = () => {
           <Link to={"/"}>
             {/* <h2>𝙵𝙰𝚁𝙸𝙷𝙰-𝙼𝙾𝚁𝙸𝚄𝙼</h2> */}
             <h2>𝔽𝔸ℝ𝕀ℍ𝔸-𝕄𝕆ℝ𝕀𝕌𝕄</h2>
+            {/* <img
+              src={logo}
+              alt="anotherpic"
+              className="bg-white w-16 h-16 rounded-full"
+            /> */}
           </Link>
         </div>
         <ul className="hidden items-center justify-between gap-10 md:flex">
