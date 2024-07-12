@@ -130,7 +130,7 @@ const ProductInfo = () => {
       <img
         src={product?.img}
         alt={product?.name}
-        className="w-[80%]   h-auto object-fill mb-10"
+        className="w-[80%] h-auto object-fill mb-10"
       />
       <div>
         <h1 className="text-2xl font-bold mb-4">{product.name}</h1>

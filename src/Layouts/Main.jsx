@@ -137,41 +137,43 @@ const Main = () => {
   });
 
   return (
-    <div className="max-w-[1160px] mx-auto">
-      <div className="">
+    <>
+      <div >
         <Navbar />
       </div>
-      <div className="flex">
-        <Sidebar
-          onGenderClick={handleGenderClick}
-          onClothingItemClick={handleClothingItemClick}
-          items={items}
-        />
-        <div className="flex-1 ml-5">
-          {loading && (
-            <div className="flex justify-center items-center h-screen">
-              <div className="w-14 h-14 animate-spin rounded-full border-4 border-dashed border-sky-600"></div>
-            </div>
-          )}
-          {error && (
-            <div className="text-center text-red-500">Error: {error}</div>
-          )}
-          {!loading && !error && (
-            <Outlet
-              context={{
-                items: filteredItems,
-                loading: loading,
-                error: error,
-              }}
-            />
-          )}
+      <div className="max-w-[1160px] mx-auto">
+        <div className="flex">
+          <Sidebar
+            onGenderClick={handleGenderClick}
+            onClothingItemClick={handleClothingItemClick}
+            items={items}
+          />
+          <div className="flex-1 ml-5">
+            {loading && (
+              <div className="flex justify-center items-center h-screen">
+                <div className="w-14 h-14 animate-spin rounded-full border-4 border-dashed border-sky-600"></div>
+              </div>
+            )}
+            {error && (
+              <div className="text-center text-red-500">Error: {error}</div>
+            )}
+            {!loading && !error && (
+              <Outlet
+                context={{
+                  items: filteredItems,
+                  loading: loading,
+                  error: error,
+                }}
+              />
+            )}
+          </div>
         </div>
-      </div>
 
-      <footer className="bg-sky-100 py-5 text-center text-black mb-10 mt-20">
-        <p>&copy; 2024 FarihasFashions. All Rights Reserved.</p>
-      </footer>
-    </div>
+        <footer className="bg-sky-100 py-5 text-center text-black mb-10 mt-20">
+          <p>&copy; 2024 FarihasFashions. All Rights Reserved.</p>
+        </footer>
+      </div>
+    </>
   );
 };
 
