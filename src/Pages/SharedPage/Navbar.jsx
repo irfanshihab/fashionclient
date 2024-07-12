@@ -17,7 +17,8 @@ const Navbar = () => {
       >
         <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
           <Link to={"/"}>
-            <h2>ClothesLook</h2>
+            {/* <h2>𝙵𝙰𝚁𝙸𝙷𝙰-𝙼𝙾𝚁𝙸𝚄𝙼</h2> */}
+            <h2>𝔽𝔸ℝ𝕀ℍ𝔸-𝕄𝕆ℝ𝕀𝕌𝕄</h2>
           </Link>
         </div>
         <ul className="hidden items-center justify-between gap-10 md:flex">
@@ -39,7 +40,7 @@ const Navbar = () => {
             <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
           <li className="group flex  cursor-pointer flex-col">
-            <Link to={"https://www.google.co.uk/"}> Term & conditons</Link>
+            <Link to={"https://www.google.co.uk/"}> Predict Yourself</Link>
             <span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
         </ul>
@@ -77,7 +78,7 @@ const Navbar = () => {
               Services
             </li> */}
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
-                <Link to={"https://www.google.co.uk/"}>Term & conditons</Link>
+                <Link to={"https://www.google.co.uk/"}>Predict Yourself</Link>
               </li>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
                 <Link to="/carts" className="relative inline-block">

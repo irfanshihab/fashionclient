@@ -54,7 +54,7 @@ const Home = () => {
                 <img
                   // width={350}
                   height={190}
-                  className="h-[270px] w-full rounded-2xl bg-gray-400 transition-transform duration-300 transform hover:scale-105 "
+                  className="h-[270px] w-full rounded-2xl bg-gray-400 transition-transform duration-300 transform hover:scale-105"
                   src={item.img}
                   alt={item.name}
                 />
