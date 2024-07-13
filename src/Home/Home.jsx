@@ -47,7 +47,7 @@ const Home = () => {
             <Link to={`/products/${item._id}`}>
               <div
                 key={item._id}
-                className={`max-h-min  mx-auto space-y-6
+                className={`min-h-full mx-auto space-y-6
                rounded-2xl bgCartColor px-4 py-4
                 shadow-xl dark:bg-[#18181B] min-w-full  `}
               >
@@ -66,34 +66,9 @@ const Home = () => {
                     <p className="font-medium text-lg text-[#000]">
                       Price: {item.price}
                     </p>
-                    {/* {item.newCollection && (
-                  <p className="text-green-500">New Collection: Latest</p>
-                )} */}
-                    {/* <p className="pt-3">
-                      <Link
-                        to={`/products/${item._id}`}
-                        className="font-medium text-base text-[#000] hover:underline hover:text-blue-400"
-                      >
-                        Info
-                      </Link>
-                    </p> */}
                   </div>
-                  {/* <div className="text-base font-medium text-black pt-5">
-                <p className="">Price : {item.price} </p>
-              </div> */}
                 </div>
                 <div className="mt-5 pt-3 flex items-center justify-between">
-                  {/* <h2 className="font-bold text-black md:text-xl dark:text-white/60">
-                {item.price}
-              </h2> */}
-                  {/* <Link to={`/products/${item._id}`}>
-                <button
-                  className="rounded-lg bg-[#af36ab] text-black  
-                px-7 py-2 text-lg font-semibold hover:text-white  hover:bg-slate-900 sm:text-sm md:text-base"
-                >
-                  View
-                </button>
-              </Link> */}
                   <button
                     onClick={() => handleAddCart(item)}
                     className="rounded-lg bg-[#af36ab]
