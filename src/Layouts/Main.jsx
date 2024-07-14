@@ -11,7 +11,7 @@
 //   const [error, setError] = useState(null);
 
 //   useEffect(() => {
-//     fetch("http://localhost:5000/clothes")
+//     fetch("https://fashion-server-eight.vercel.app/clothes")
 //       .then((res) => {
 //         if (!res.ok) {
 //           throw new Error("Failed to fetch");
@@ -100,7 +100,7 @@ const Main = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/clothes")
+    fetch("https://fashion-server-eight.vercel.app/clothes")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Failed to fetch");
@@ -138,7 +138,7 @@ const Main = () => {
 
   return (
     <>
-      <div >
+      <div>
         <Navbar />
       </div>
       <div className="max-w-[1160px] mx-auto">

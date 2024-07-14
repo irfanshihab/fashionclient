@@ -19,7 +19,7 @@ const CartBooked = () => {
   }
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/carts/${id}`, {
+    fetch(`https://fashion-server-eight.vercel.app/carts/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

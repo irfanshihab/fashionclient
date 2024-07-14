@@ -13,7 +13,9 @@ const ProductInfo = () => {
     const fetchProduct = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`http://localhost:5000/clothes/${id}`);
+        const response = await fetch(
+          `https://fashion-server-eight.vercel.app/clothes/${id}`
+        );
         if (!response.ok) {
           throw new Error("Failed to fetch product");
         }
@@ -45,7 +47,7 @@ const ProductInfo = () => {
   //   };
   //   console.log(cartBooked);
   //   try {
-  //     const response = await fetch("http://localhost:5000/carts", {
+  //     const response = await fetch("https://fashion-server-eight.vercel.app/carts", {
   //       method: "POST",
   //       headers: {
   //         "content-type": "application/json",
@@ -88,13 +90,16 @@ const ProductInfo = () => {
     };
     console.log(cartBooked);
     try {
-      const response = await fetch("http://localhost:5000/carts", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(cartBooked),
-      });
+      const response = await fetch(
+        "https://fashion-server-eight.vercel.app/carts",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(cartBooked),
+        }
+      );
       if (response.status === 400) {
         const result = await response.json();
         alert(result.message); // "Item already in cart"
@@ -176,5 +181,3 @@ const ProductInfo = () => {
 };
 
 export default ProductInfo;
-
-

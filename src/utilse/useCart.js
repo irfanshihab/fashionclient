@@ -9,7 +9,7 @@
 //   useEffect(() => {
 //     const fetchCartItems = async () => {
 //       try {
-//         const response = await fetch("http://localhost:5000/carts");
+//         const response = await fetch("https://fashion-server-eight.vercel.app/carts");
 //         if (!response.ok) {
 //           throw new Error("Failed to fetch cart items");
 //         }
@@ -40,7 +40,7 @@ const useCart = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/carts")
+    fetch("https://fashion-server-eight.vercel.app/carts")
       .then((res) => res.json())
       .then((data) => {
         setCartItems(data);

@@ -13,7 +13,9 @@ const CartInfo = () => {
     const fetchProduct = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`http://localhost:5000/carts/${id}`);
+        const response = await fetch(
+          `https://fashion-server-eight.vercel.app/carts/${id}`
+        );
         if (!response.ok) {
           throw new Error("Failed to fetch product");
         }

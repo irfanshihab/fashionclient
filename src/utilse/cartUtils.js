@@ -1,12 +1,15 @@
 export const addToCart = async (product) => {
   try {
-    const response = await fetch("http://localhost:5000/carts", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(product),
-    });
+    const response = await fetch(
+      "https://fashion-server-eight.vercel.app/carts",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(product),
+      }
+    );
 
     if (response.status === 400) {
       const result = await response.json();
@@ -24,7 +27,9 @@ export const addToCart = async (product) => {
 
 export const getCartItems = async () => {
   try {
-    const response = await fetch("http://localhost:5000/carts");
+    const response = await fetch(
+      "https://fashion-server-eight.vercel.app/carts"
+    );
     if (!response.ok) {
       throw new Error("Failed to fetch cart items");
     }
