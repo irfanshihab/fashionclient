@@ -9,7 +9,8 @@ import ErrorPage from "./Pages/ErrorPage.jsx";
 import ProductInfo from "./Pages/ProductInfo.jsx";
 import CartBooked from "./Pages/cart/CartBooked.jsx";
 import CartInfo from "./Pages/cart/CartInfo.jsx";
-
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,6 +40,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <div className="bgFull">
       <RouterProvider router={router} />
+      <ToastContainer position="top-center" />
     </div>
   </React.StrictMode>
 );

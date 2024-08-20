@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { useParams } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
 
 const ProductInfo = () => {
   const { id } = useParams();
@@ -102,15 +103,18 @@ const ProductInfo = () => {
       );
       if (response.status === 400) {
         const result = await response.json();
-        alert(result.message); // "Item already in cart"
+        // alert(result.message); // "Item already in cart"
+        toast(result.message);
       } else if (!response.ok) {
         throw new Error("Failed to add item to cart");
       } else {
-        alert("Item added to cart successfully!");
+        // alert("Item added to cart successfully!");
+        toast("Item added to cart successfully!");
       }
     } catch (error) {
       console.error(error);
-      alert("Failed to add item to cart");
+      // alert("Failed to add item to cart");
+      toast("Failed to add item to cart");
     }
   };
 

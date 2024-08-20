@@ -3,6 +3,7 @@ import useCart from "../../utilse/useCart";
 import { Link } from "react-router-dom";
 import { FaTrash } from "react-icons/fa";
 import { HiArrowDown } from "react-icons/hi";
+import { toast } from "react-toastify";
 const CartBooked = () => {
   const { cartItems, loading, error, removeCartItem } = useCart();
 
@@ -26,17 +27,17 @@ const CartBooked = () => {
       .then((data) => {
         if (data.deletedCount === 1) {
           // Successfully deleted the item
-          alert("Item deleted successfully");
+          toast("Item deleted successfully");
           // Update the state to remove the deleted item
           removeCartItem(id);
         } else {
           // Item was not deleted
-          alert("Failed to delete the item");
+          toast("Failed to delete the item");
         }
       })
       .catch((error) => {
         console.error("Error:", error);
-        alert("An error occurred while deleting the item");
+        toast("An error occurred while deleting the item");
       });
   };
 
