@@ -38,7 +38,7 @@ const router = createBrowserRouter([
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div className="bgFull">
+    <div className="bgFull font-[Open-Sans]">
       <RouterProvider router={router} />
       <ToastContainer position="top-center" />
     </div>

@@ -91,7 +91,7 @@ const Sidebar = ({ onGenderClick, onClothingItemClick, items }) => {
   }, [items]);
   // bg-[#383a3d]
   return (
-    <div className="w-48 p-4 mt-0 h-screen bg-gray-900  overflow-y-auto  min-h-max text-white">
+    <div className="w-[200px] p-4 mt-0 h-screen bg-gray-900  overflow-y-auto  min-h-max text-white">
       <ul className="mt-3">
         <div
           onClick={() => onGenderClick(null)}
