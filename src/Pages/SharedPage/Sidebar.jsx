@@ -50,7 +50,6 @@
 // export default Sidebar;
 import React, { useState, useEffect } from "react";
 import { IoMdMale, IoMdFemale } from "react-icons/io";
-import { FaTshirt } from "react-icons/fa";
 
 const Sidebar = ({ onGenderClick, onClothingItemClick, items }) => {
   const [maleClothingTypes, setMaleClothingTypes] = useState([]);
