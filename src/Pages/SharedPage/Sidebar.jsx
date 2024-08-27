@@ -65,6 +65,7 @@ const Sidebar = ({ onGenderClick, onClothingItemClick, items }) => {
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
+  // onMouseEnter={() => setIsDropdownOpen(true)} onMouseLeave={() => setIsDropdownOpen(false)}
 
   const [isFemaleDropdownOpen, setIsFemaleDropdownOpen] = useState(false);
   const toggleFemaleDropdown = () => {
@@ -90,13 +91,13 @@ const Sidebar = ({ onGenderClick, onClothingItemClick, items }) => {
   }, [items]);
   // bg-[#383a3d]
   return (
-    <div className="w-48 p-4 mt-0 bg-gray-900  overflow-y-auto  min-h-max text-white">
+    <div className="w-48 p-4 mt-0 h-screen bg-gray-900  overflow-y-auto  min-h-max text-white">
       <ul className="mt-3">
         <div
           onClick={() => onGenderClick(null)}
           className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white"
         >
-          <IoMdMale className="w-6 h-6" />
+          <IoMdMale className="w-5 h-5" />
           <span className="text-[15px] ml-4 text-gray-200">ALL</span>
         </div>
 
