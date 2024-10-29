@@ -6,7 +6,11 @@ const Home = () => {
   const { items } = useOutletContext();
 
   if (!items) {
-    return <div className="text-center text-gray-500">No products found</div>;
+    return (
+      <div className="text-center font-bold text-gray-500">
+        No products found
+      </div>
+    );
   }
 
   const handleAddCart = (item) => {
@@ -54,7 +58,7 @@ const Home = () => {
               <img
                 // width={350}
                 height={190}
-                className="h-[270px] w-full rounded-2xl bg-gray-400 transition-transform duration-300 transform hover:scale-105"
+                className="h-[270px] w-full  rounded-2xl bg-gray-400 transition-transform duration-300 transform hover:scale-105"
                 src={item.img}
                 alt={item.name}
               />
@@ -63,9 +67,7 @@ const Home = () => {
                   {item.name}
                 </h2>
                 <div className=" pt-5">
-                  <p className="font-medium text-lg text-[#000]">
-                    {item.price}
-                  </p>
+                  <p className="font-medium text-lg text-black">{item.price}</p>
                 </div>
               </div>
               {/* <div className="mt-5 pt-3 flex items-center justify-between">
@@ -80,20 +82,22 @@ const Home = () => {
                     </p>
                   </button>
                 </div> */}
-              <div className="flex  flex-wrap items-center justify-between gap-2 text-sm md:text-base">
+              <div className="flex flex-wrap items-center justify-between gap-2 text-sm md:text-base">
                 <Link
                   to={`/products/${item._id}`}
-                  className="border border-black rounded-lg bg-gray-200 px-4 py-2 font-semibold text-black duration-300 
+                  className="border border-black rounded-lg bg-gray-200 
+                    px-2 md:px-4 py-2 font-semibold text-black duration-300 
                   hover:scale-95 hover:bg-slate-900 hover:text-white"
                 >
                   View Details
                 </Link>
+
                 <button
                   onClick={() => handleAddCart(item)}
-                  className="rounded-lg bg-[#af36ab] px-4 py-2 font-semibold text-black
+                  className="rounded-lg bg-[#af36ab] md:px-4 px-2 py-2 font-semibold text-black
                    duration-300 hover:scale-95 hover:text-white  hover:bg-slate-900"
                 >
-                  <p className="flex items-center justify-center gap-2">
+                  <p className="flex items-center justify-center gap-1">
                     <HiOutlineShoppingCart />
                     <span> Add to Cart</span>
                   </p>
